@@ -74,7 +74,7 @@ brew install terraform
 
 請輸入下方命令列建立服務主體，主要是會在 Azure AD 註冊應用程式，並且給予此應用程式參與者的角色，才能透過 Terraform 進行部署與維運，其中的 `<service_principal_name>` 您可以自訂名稱：<br>
 ```
-az ad sp create-for-rbac --name <service_principal_name> --role Contributor
+az ad sp create-for-rbac --name <service_principal_name> --role Contributor --scopes "/subscriptions/<subscription id>"
 ```
 
 完成後您將可以得到`appId`、`password`、`tenant`、`displayname`等數值，請務必保留這些數值，稍後會需要用到：<br>
