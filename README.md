@@ -64,7 +64,7 @@ brew install terraform
     "state": "Enabled",
     "tenantId": "您的目錄ID",
     "user": {
-      "name": "Brian.Hsing@kyndryl.com",
+      "name": "isadmin@brianhsing.club",
       "type": "user"
     }
   }
