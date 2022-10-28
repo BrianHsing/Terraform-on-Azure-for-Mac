@@ -1,4 +1,4 @@
-# 使用 Terraform 來部署 Azure
+# 在 MacOS 使用 Terraform 來部署 Azure
 
 ## 環境說明
 
