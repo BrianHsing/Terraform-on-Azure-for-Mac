@@ -2,7 +2,7 @@
 
 ## 環境說明
 
-使用 Terraform 來部署與管理 Azure 其實有數種方式可以使用，在本篇直接在本地安裝 Azure CLI 搭配 Terraform 來進行操作，所以最基本的設定必須要做 Terraform、Azure CLI、IDE 的安裝。另外就是我們會建立 Azure 服務主體，來授予 Terraform 在 Azure 上的權限，完成後就可以開始進行後續的自動化部署與維運管理管裡<br>
+使用 Terraform 來部署與管理 Azure 其實有數種方式可以使用，在本篇直接在本地安裝 Azure CLI 搭配 Terraform 來進行操作，所以最基本的設定必須要做 Terraform、Azure CLI、IDE 的安裝。另外就是我們會建立 Azure 服務主體，來授予 Terraform 在 Azure 上的權限，完成後就可以開始進行後續的自動化部署與維運管理<br>
 
 - 電腦環境
   - OS : macOS Monterey 12.3<br>
